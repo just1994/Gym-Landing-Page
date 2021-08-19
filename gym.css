@@ -1,0 +1,91 @@
+
+    body {
+        font-family:'Baloo Bhaina 2', cursive;       
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(/gym.jpg.jpeg);
+        background-size: 640px;
+        
+    }
+    .left{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 58px;
+        top: 26px;
+    }
+    .left img{
+        width: 65px;
+        filter: invert();
+
+    }
+    .left div {
+        text-align: center;
+    }
+    .mid{
+        display: block;
+        margin: -28px auto;
+        width: 25%;
+        /* border: 2px solid rgb(40, 233, 175); */
+        
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(46, 103, 226); */
+        
+    }
+    .btn{
+        border-radius: 10px;
+        background-color: transparent;
+        color: white;
+        padding: 4px 14px;
+        font: 20px;
+        cursor: pointer;
+        margin: 0px 9px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .btn :hover, .btn:hover{
+        background-color:rgb(31, 30, 30);
+        color: tomato;
+    }
+    .navbar {
+        display: inline-block;
+    }
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+        padding: 1rem;
+        
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: whitesmoke;
+
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: tomato;
+    }
+    .left-side{
+        margin: 160px 140px;
+        font-size: 70px;
+        color: whitesmoke;
+    }
+    .button{
+        border-radius: 10px;
+        background-color: transparent;
+        color:orangered;
+        padding: 4px 4px;
+        font: 20px;
+        cursor: pointer;
+        margin: 150px 160px;
+        font-family: 'Baloo Bhaina 2', cursive;
+    }
+    .button:hover{
+        background-color: thistle;
+
+    }
